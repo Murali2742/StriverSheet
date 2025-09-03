@@ -3,6 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Problem1/Problem1.iml" filepath="$PROJECT_DIR$/Problem1/Problem1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Problem10/Problem10.iml" filepath="$PROJECT_DIR$/Problem10/Problem10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Problem2/Problem2.iml" filepath="$PROJECT_DIR$/Problem2/Problem2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Problem3/Problem3.iml" filepath="$PROJECT_DIR$/Problem3/Problem3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Problem4&amp;5/Problem4&amp;5.iml" filepath="$PROJECT_DIR$/Problem4&amp;5/Problem4&amp;5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Problem6/Problem6.iml" filepath="$PROJECT_DIR$/Problem6/Problem6.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/StriverSheet.iml" filepath="$PROJECT_DIR$/.idea/StriverSheet.iml" />
     </modules>
   </component>
