@@ -1,28 +1,23 @@
-
 public class Main {
     public static void main(String[] args) {
-
-        int nums[] = {3,0,2,1,5};
-        System.out.println(missingNumber(nums));
-
+        Main obj = new Main();
+        int[] nums = {1, 1, 0, 1, 1, 1};
+        System.out.println(obj.findMaxConsecutiveOnes(nums)); // Output: 3
     }
 
+    public int findMaxConsecutiveOnes(int[] nums) {
+        int max = 0;
+        int count = 0;
 
-        public static int missingNumber(int[] nums) {
-
-            int n = nums.length;
-
-            int sum = 0;
-            int totalsum = (n*(n+1))/2;
-
-            for(int i=0;i<n;i++)
-            {
-                sum+=nums[i];
+        for (int num : nums) {
+            if (num == 1) {
+                count++;
+                max = Math.max(max, count); // update max here
+            } else {
+                count = 0; // reset on 0
             }
-
-            return totalsum - sum;
         }
 
-
-
+        return max;
+    }
 }
